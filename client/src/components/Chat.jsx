@@ -172,7 +172,7 @@ const Chat = () => {
           {!selectedUserId && (
             <div className="flex h-full flex-grow items-center justify-center">
               <div className="text-gray-300">
-                &larr; เลือกผู้คนแชทกันเถอะ"_"
+                &larr; แชทกันเถอะ
               </div>
             </div>
           )}

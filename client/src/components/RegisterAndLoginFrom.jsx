@@ -24,7 +24,7 @@ const RegisterAndLoginFrom = () => {
           {isLoginOrRegister === "register" ? "Register" : "Login"}
         </h1>
         <form onSubmit={handleSubmit} className="w-64 mx-auto mb-12">
-          <h2 className="text-black mb-2">Username </h2>
+          <h2 className="text-black mb-2"> Username </h2>
           <input
             type="text"
             value={username}
@@ -32,7 +32,7 @@ const RegisterAndLoginFrom = () => {
             placeholder="Username"
             onChange={(e) => setUsername(e.target.value)}
           />
-          <h2 className="text-black mb-2">Password </h2>
+          <h2 className="text-black mb-2"> Password </h2>
           <input
             type="password"
             value={password}
